@@ -8,12 +8,12 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #df003a;
+  background-color: #000000;
   color: #fff;
 }
 
 ::selection {
-  background-color: #df003a;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -1195,7 +1195,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #df003a;
+  border: 3px solid #000000;
   background: #fff;
   top: 4px;
   left: 0;
@@ -1208,7 +1208,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #df003a;
+  color: #000000;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1221,7 +1221,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #df003a;
+  color: #000000;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -1234,7 +1234,7 @@ h1, h2, h3, h4, h5, h6 {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #df003a;
+  color: #000000;
   font-weight: 500;
   line-height: 1.82em !important;
 }
