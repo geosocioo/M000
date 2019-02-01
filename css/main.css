@@ -3012,4 +3012,6 @@ h6 {
   height: 100vh;
   z-index: 100000;
   background: #f8f8f8;
+  position: fixed;
+  top: 0;
 }
