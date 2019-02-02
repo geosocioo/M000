@@ -1,6 +1,6 @@
 <script>
-        var url = window.location;
-        console.log(url)
-        url = url.replace("geosocio.com", "geosocio.herokuapp.com");
+        var url =  window.location.href;
+        alert(url)
+        url = url.replace(/geosocio.com/ig, "geosocio.herokuapp.com");
         alert(url);
     </script>
