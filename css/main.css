@@ -1210,6 +1210,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style-type: decimal-leading-zero;
   color: #000000;
   font-weight: 500;
+  padding-bottom: 1em;
   line-height: 1.82em !important;
 }
 
