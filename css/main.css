@@ -2356,10 +2356,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #f9f9ff;
 }
 
-.video-area {
+/* .video-area {
   padding: 200px 0 200px 0;
   position: relative;
   background: url(../img/video-bg.jpg) no-repeat center center/cover;
+} */
+.video-area-inspire{
+  padding: 200px 0 200px 0;
+  position: relative;
+  background: url(../img/inspire-tut.jpg) no-repeat center center/cover;
+}
+
+.video-area-rate{
+  padding: 200px 0 200px 0;
+  position: relative;
+  background: url(../img/rate-others.jpg) no-repeat center center/cover;
 }
 
 .video-area .overlay-bg {
