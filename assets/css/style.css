@@ -1,15 +1,5 @@
 /* Document
    ========================================================================== */
-   @font-face {
-    font-family: Gilroy;
-    src: url("../fonts/Gilroy-Light.otf") format("opentype");
-}
-
-@font-face {
-    font-family: Gilroy;
-    font-weight: bold;
-    src: url("../fonts/Gilroy-ExtraBold.otf") format("opentype");
-}
 
 /**
  * 1. Correct the line height in all browsers.
@@ -55,13 +45,11 @@
 
 body {
     background: #f2f3f5;
-    /* font-family: "colfax-medium", sans-serif; */
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
     color: #222;
     margin: 0;
     padding: 0;
-    text-shadow: -1px -1px 0 rgba(242, 243, 245, 0.4), 1px -1px 0 rgba(242, 243, 245, 0.4), -1px 1px 0 rgba(242, 243, 245, 0.4), 1px 1px 0 rgba(242, 243, 245, 0.4);
 
 }
 
@@ -78,6 +66,11 @@ body {
 
 .p-relative{
   position: relative;
+}
+
+.bg-t{
+    background-color: rgba(242, 243, 245, 0.6);
+    /* background: red; */
 }
 
 .logo{
@@ -251,7 +244,8 @@ body {
 }
 
 .rate-quote{
-    padding-right: 1em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
     position: absolute;
     left: 60%;
     text-align: left;
